@@ -1,6 +1,13 @@
 Port Your Data with Porter
 ==========================
-Porter allows you to create 'containers' of your data files and sql which you can save and restore
+Do you use different database and data asset (imgs). For example
+1. testing set 
+2. development set 
+
+It just does not make sense to have several containers.
+
+Porter allow you to make 'containers' of  sql dumps with data and restore them instantly without the 
+need of complex stuff like docker. Folders can be shared via git and allow teams to instantly use data-containers. 
 
 Installation
 ------------
