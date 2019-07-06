@@ -1,0 +1,21 @@
+{
+    "name": "auzadventure/yii2-porter",
+    "description": "Porter allows you to create 'containers' of your data files and sql which you can save and restore",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lionel Y",
+            "email": "lionel@wesvault.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "auzadventure\\porter\\": ""
+        }
+    }
+}
