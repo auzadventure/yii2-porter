@@ -7,7 +7,11 @@ Do you use different database and data asset (imgs). For example
 It just does not make sense to have several containers.
 
 Porter allow you to make 'containers' of  sql dumps with data and restore them instantly without the 
-need of complex stuff like docker. Folders can be shared via git and allow teams to instantly use data-containers. 
+need of complex stuff like docker. 
+
+
+Folders can be shared via git and allow teams to instantly use data-containers and database sets. 
+
 
 Installation
 ------------
@@ -35,4 +39,21 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \auzadventure\porter\AutoloadExample::widget(); ?>```
+use \auzadventure\porter\Porter;
+```
+# Load Porter 
+
+```$Porter = new Porter;``` 
+
+# Generate the Form To Backup
+
+```$Porter->backupForm();```
+
+# Generate the list of containers 
+
+```$Porter->listContainers()```
+
+
+
+
+
